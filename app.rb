@@ -7,4 +7,8 @@ get '/reversename/:name' do
   "#{@name.reverse}"
 end
 
+get '/square/:number' dp
+@number = params[:number].to_i
+"#{@number * @number}"
+
 end
