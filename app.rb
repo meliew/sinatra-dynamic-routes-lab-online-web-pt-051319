@@ -10,5 +10,6 @@ end
 get '/square/:number' dp
 @number = params[:number].to_i
 "#{@number * @number}"
+end
 
 end
